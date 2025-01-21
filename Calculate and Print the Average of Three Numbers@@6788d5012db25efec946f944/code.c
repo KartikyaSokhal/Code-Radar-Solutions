@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 int main(){
-    int a;
-    int b;
-    int c;
-    scanf("%f",&a);
-    scanf("%f",&b);
-    scanf("%f",&c);
+    float a;
+    float b;
+    float c;
+    scanf("%d",&a);
+    scanf("%d",&b);
+    scanf("%d",&c);
     float avg = (a+b+c)/3;
-    printf("Average: %.2f", avg);
+    printf("Average: %.2f\n", avg);
     return 0;
 }
