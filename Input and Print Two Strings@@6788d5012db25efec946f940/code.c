@@ -5,7 +5,7 @@ int main(){
     char second[30];
     scanf("%s", &first);
     scanf("%s", &second);
-    printf("You entered: %s",first "and %s",second);
+    printf("You entered: %s and %s",first,second);
     return 0;
 
 }
