@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    signed int x,y;
+    signed int a,b;
     scanf("%d %d", &a, &b);
     if(a>0 && a<0 || a<0 && a>0){
         printf("True");
