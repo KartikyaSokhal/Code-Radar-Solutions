@@ -11,8 +11,10 @@ int main(){
         printf("%d", a-b);
     } else if (c=='*'){
         printf("%d", a*b);
-    } else (c=='/' && b!=0){
+    } else if (c=='/' && b!=0){
         printf("%d", a/b);
-    } 
+    } else {
+        printf("invalid")
+    }
     return 0;
 }
