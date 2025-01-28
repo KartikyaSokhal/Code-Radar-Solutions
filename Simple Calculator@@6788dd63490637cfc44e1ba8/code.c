@@ -5,16 +5,16 @@ int main(){
     char c;
     scanf("%d %d", &a, &b);
     scanf("%c", &c);
-    if (c == '+'){
-        printf("%d", a+b);
-    } else if (c=='-'){
-        printf("%d", a-b);
-    } else if (c=='*'){
-        printf("%d", a*b);
-    } else if (c=='/' && b!=0){
-        printf("%d", a/b);
-    } else {
-        printf("invalid");
+    switch (c){
+        case '+': printf("%d", a+b);break;
+        case '-': printf("%d", a-b);break;
+        case '*': printf("%d", a+b);break;
+        case '/': if (b!=0){
+            printf("%d", a/b);
+        } else {
+            printf("error");
+        } break;
+        default :printf("error");
     }
     return 0;
 }
