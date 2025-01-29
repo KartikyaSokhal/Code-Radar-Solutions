@@ -14,9 +14,9 @@ int main(){
         }
     }
     if (prime){
-        printf("Prime")
+        printf("Prime");
     } else {
-        printf("Not Prime")
+        printf("Not Prime");
     }
     return 0;
 }
