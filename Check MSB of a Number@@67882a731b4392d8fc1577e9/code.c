@@ -3,7 +3,8 @@
 int main(){
     int a;
     int i = 32;
-    if (a & (1<<(i-1))){
+    int mask = 1<<(i-1);
+    if (a & mask){
         printf("Set");
     } else {
         printf("Not Set");
