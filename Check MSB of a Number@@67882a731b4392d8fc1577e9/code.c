@@ -3,7 +3,7 @@
 int main(){
     int a;
     int i = 32;
-    if (1<<(i-1)){
+    if (a & (1<<(i-1))){
         printf("Set");
     } else {
         printf("Not Set");
