@@ -2,6 +2,7 @@
 
 int main(){
     int a;
+    scanf("%d", &a);
     int i = 32;
     int mask = 1<<i-1;
     if (a & mask){
