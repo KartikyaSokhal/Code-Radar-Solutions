@@ -6,7 +6,7 @@ int main() {
     scanf("%d", &n);
     
     int bit = (num >> n) & 1;
-    printf("The %dth bit of %d is %d\n", n, num, bit);
+    printf("%d", bit);
     
     return 0;
 }
