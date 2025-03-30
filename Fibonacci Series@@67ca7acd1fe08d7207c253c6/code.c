@@ -1,4 +1,4 @@
-void fibonacciSeries(int n, int a, int b){
+void fibonacciSeries(n){
     if (n==0){
         return; 
 
