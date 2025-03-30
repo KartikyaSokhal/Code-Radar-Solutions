@@ -7,6 +7,7 @@ int main(){
             printf("%d", k);
             k++;
         }
-        return 0;
+            printf("\n")
     }
+    return 0;
 }
